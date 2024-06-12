@@ -1,4 +1,9 @@
-soma(a, b) {print(a + b);}
-soma(a, b) {print(a + b);}
+int soma(int a, int b) {
+  return a + b;
+}
+main() {
+  final r = soma(2, 3);
+  print('O valor da soma é: $r');
 
-main() {soma(2, 3);}
+
+}
